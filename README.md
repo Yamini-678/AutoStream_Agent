@@ -53,7 +53,9 @@ mock_lead_capture(name, email, platform)
 
 This simulates backend lead automation.
 
-Project Structure
+## 📁 Project Structure
+
+```
 AutoStream_Agent/
 │
 ├── app.py
@@ -68,14 +70,15 @@ AutoStream_Agent/
     ├── rag.py
     ├── state.py
     └── tools.py
-How to Run Locally
-Clone repository
-git clone <repo-link>
-cd AutoStream_Agent
-Create virtual environment
-python -m venv venv
-venv\Scripts\activate
-Install dependencies
-pip install -r requirements.txt
-Run agent
-python app.py
+```
+** How to Run Locally
+.Clone repository
+.git clone <repo-link>
+.cd AutoStream_Agent
+.Create virtual environment
+.python -m venv venv
+.venv\Scripts\activate
+.Install dependencies
+.pip install -r requirements.txt
+.Run agent
+.python app.py
